@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Breakfast",
+    "imgSrc": "/src/assets/images/breakfast.png",
+    "color": "rgb(112 130 70)"
+  },
+  {
+    "title": "Vegan",
+    "imgSrc": "/src/assets/images/vegan.png",
+    "color": "rgb(112 130 70)"
+  },
+  {
+    "title": "Meat",
+    "imgSrc": "/src/assets/images/meat.png",
+    "color": "rgb(108 198 63)"
+  },
+  {
+    "title": "Dessert",
+    "imgSrc": "/src/assets/images/dessert.png",
+    "color": "rgb(204 38 27)"
+  },
+  {
+    "title": "Lunch",
+    "imgSrc": "/src/assets/images/lunch.png",
+    "color": "rgb(0 0 0)"
+  },
+  {
+    "title": "Chocolate",
+    "imgSrc": "/src/assets/images/chocolate.png",
+    "color": "rgb(0 0 0)"
+  }
+]

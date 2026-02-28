@@ -1,0 +1,58 @@
+.recipe-card {
+  position: relative;
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 24px;
+    padding: 16px 16px 32px;
+    background-image: var(--gradient-blue);
+    border-radius: var(--border-radius-m);
+
+    &--transparent {
+      background-image: none;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    border-radius: calc(var(--border-radius-m) / 3 * 2);
+  }
+
+  &__tags {
+    color: initial;
+  }
+
+  &__button {
+    @include flex-center(true);
+
+    position: absolute;
+    top: 36px;
+    right: 36px;
+    width: 48px;
+    padding: 0;
+    color: var(--color-gray-alt);
+    aspect-ratio: 1;
+    background-color: var(--color-white);
+    border-radius: 50%;
+    border: 4px solid transparent;
+
+    @include hover {
+      border-color: var(--color-accent);
+    }
+
+    &.is-liked {
+      color: var(--color-accent);
+
+      svg {
+        filter: drop-shadow(0 5px 10px var(--color-accent-alt));
+      }
+    }
+
+    &--transparent {
+      top: 16px;
+      right: 16px;
+    }
+  }
+}

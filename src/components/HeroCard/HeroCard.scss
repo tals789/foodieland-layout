@@ -1,0 +1,122 @@
+.hero-card {
+  display: grid;
+  grid-template-columns: 48.4375% 1fr;
+
+  @include tablet {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  &__body {
+    position: relative;
+    background-color: var(--color-accent-secondary);
+    padding: fluid(50, 20);
+  }
+
+  &__image {
+    object-fit: cover;
+    height: 100%;
+
+    @include tablet {
+      height: 35vh;
+      width: 100%;
+    }
+  }
+
+  &__badge {
+    position: absolute;
+    left: calc(100% - 50px);
+    top: 50px;
+    width: 150px;
+    aspect-ratio: 1;
+
+    @include tablet {
+      left: auto;
+      right: 50px;
+      top: auto;
+      bottom: calc(100% - 50px);
+    }
+
+    @include mobile {
+      right: 20px;
+      width: 80px;
+    }
+  }
+
+  &__category {
+    &:not(:last-child) {
+      margin-bottom: 32px;
+    }
+
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--color-white);
+    border-radius: var(--border-radius-m);
+    column-gap: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    filter: drop-shadow(var(--shadow));
+  }
+
+  &__title {
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__description {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+    color: var(--color-gray-600);
+    line-height: 1.75;
+  }
+
+  &__tags {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    &-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10px;
+      background-color: var(--color-gray-50);
+      border-radius: var(--border-radius-m);
+      padding: 8px 16px;
+    }
+
+    &-label {
+      color: var(--color-gray-600);
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: auto;
+
+    @include laptop-s {
+      flex-direction: column;
+      align-items: stretch;
+      row-gap: 20px;
+    }
+  }
+
+  &__button {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    min-width: 200px;
+  }
+}

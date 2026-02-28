@@ -1,0 +1,30 @@
+.section {
+  display: grid;
+  row-gap: fluid(80, 40);
+  padding-block: var(--section-padding-y);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px 16px;
+
+    @include mobile {
+      flex-direction: column;
+      align-items: start;
+      row-gap: 20px;
+    }
+
+    &--vertical {
+      flex-direction: column;
+
+      @include mobile-above {
+        text-align: center;
+      }
+    }
+  }
+
+  &__description--vertical {
+    max-width: 706px;
+  }
+}

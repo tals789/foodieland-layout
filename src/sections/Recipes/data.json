@@ -1,0 +1,137 @@
+[
+  {
+    "type": "recipe",
+    "imgSrc": "/src/assets/images/recipes/1.jpg",
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Snack"
+      }
+    ],
+    "isLiked": true
+  },
+  {
+    "type": "recipe",
+    "imgSrc": "/src/assets/images/recipes/2.jpg",
+    "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Fish"
+      }
+    ],
+    "isLiked": false
+  },
+  {
+    "type": "recipe",
+    "imgSrc": "/src/assets/images/recipes/3.jpg",
+    "title": "Strawberry Oatmeal Pancake with Honey Syrup",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Breakfast"
+      }
+    ],
+    "isLiked": false
+  },
+  {
+    "type": "recipe",
+    "imgSrc": "/src/assets/images/recipes/4.jpg",
+    "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Healthy"
+      }
+    ],
+    "isLiked": true
+  },
+  {
+    "type": "recipe",
+    "imgSrc": "/src/assets/images/recipes/5.jpg",
+    "title": "Chicken Meatballs with Cream Cheese",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Meat"
+      }
+    ],
+    "isLiked": false
+  },
+  {
+    "type": "banner",
+    "title": "Don’t forget to eat healthy food",
+    "site": "www.foodieland.com",
+    "bgImgSrc": "/src/assets/images/recipes/0.jpg",
+    "titleImgSrc": "/src/assets/images/recipes/title.svg"
+  },
+  {
+    "type": "recipe",
+    "imgSrc": "/src/assets/images/recipes/6.jpg",
+    "title": "Fruity Pancake with Orange & Blueberry",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Sweet"
+      }
+    ],
+    "isLiked": true
+  },
+  {
+    "type": "recipe",
+    "imgSrc": "/src/assets/images/recipes/7.jpg",
+    "title": "The Best Easy One Pot Chicken and Rice",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Snack"
+      }
+    ],
+    "isLiked": false
+  },
+  {
+    "type": "recipe",
+    "imgSrc": "/src/assets/images/recipes/8.jpg",
+    "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Noodles"
+      }
+    ],
+    "isLiked": false
+  }
+]

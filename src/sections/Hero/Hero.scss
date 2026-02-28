@@ -1,0 +1,15 @@
+.hero {
+  padding: 35px var(--container-padding-x) var(--section-padding-y);
+  max-width: 1920px;
+  margin-inline: auto;
+
+  &__slider-item {
+    max-width: var(--container-width);
+    border-radius: var(--border-radius-l);
+    overflow: hidden;
+
+    @include mobile {
+      border-radius: var(--border-radius-m);
+    }
+  }
+}
